@@ -1,0 +1,24 @@
+{
+  "name": "manage-landing-page-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Manage landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cfigueroa22/Manage-Landing-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cfigueroa22/Manage-Landing-Page/issues"
+  },
+  "homepage": "https://github.com/cfigueroa22/Manage-Landing-Page#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
